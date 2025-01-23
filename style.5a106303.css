@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	color: whitesmoke;
+}
+
+body {
+	background: #222;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+
+	@media screen and (max-width: 600px) {
+		font-size: 1rem;
+	}
+}
+
+div {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	background: linear-gradient(60deg, #ff93ffa0, #2e095fa0);
+	padding: 20px;
+	border-radius: 16px;
+	visibility: hidden;
+}
+
+#chosen-dices {
+	top: 60%;
+}
+
+#roll-dice {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	background: linear-gradient(60deg, #ff93ffa0, #2e095fa0);
+	padding: 12px;
+	border-radius: 16px;
+	font-size: larger;
+}
+
+#clear {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background: linear-gradient(60deg, #ff93ffa0, #2e095fa0);
+	padding: 8px;
+	border-radius: 16px;
+}
+
+/*# sourceMappingURL=/style.5a106303.css.map */
